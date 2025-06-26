@@ -10,7 +10,6 @@ RUN npm ci
 
 # 2) copy over public assets & server images
 COPY client/public ./public
-COPY server/assets  ./public/assets
 
 # 3) copy your client source
 COPY client ./
